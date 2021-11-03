@@ -1,0 +1,736 @@
+
+
+Document History
+
+
+Version    0.1 by Ramkumar on 21/4/2021 - Initial Creation
+Version 0.2 by Ramkumr on 23/3/2021       - First Mai1 and Formatting Version 0.3 by Ramkumar on 
+28/3/2021    - Version for Discussion
+Version 0.4 by Ramkumar on 23/4/2021    - Incorporated comments from Delivery Team and PluralSight
+
+Reviewers : Raman, Milgy Executive Summary
+
+
+Opensource  RPA solutions were evaluated using a questionnaire  and scale using publicly available 
+material and the following are the rankings for Proof of Concept.
+
+1) Robocorp
+2) Open RPA
+3) Jointly held between TagUI and taskt
+4) RobotGo
+
+
+Definition of   Source RPA
+
+
+RPA is defined as Robotic Process Automation. Open Source is an approach where the code of the 
+solution is available to the user of the solution under a licensing scheme.
+
+Candidates Identified
+
+
+â€¢ Robocorp
+â€¢ TagUI
+â€¢ taskt
+â€¢ Open RPA and Open Flow
+â€¢ RobotGo
+
+
+
+Evaluation Criteria
+
+Available : 3 points                - (A) Enhace-able      1 point        - (E) Non Viable : 0 
+point               - (N)
+
+
+
+
+
+Key factors for Open Source RPA selection
+
+
+a) Does it support attended and unattended automation?
+
+Robocorp - A TagUI -   A
+taskt - A
+Open RPA - A RobotGo    - A
+
+b) Does it have process mining integration ? Or is it compatible with other process mining?
+
+Robocorp - E TagUI -   E
+taskt - E
+Open RPA - E RobotGo - E
+
+c) Does it provide recording and playback functionality in the UI?
+
+Robocorp - A TagUI -   A
+taskt - A
+Open RPA - A RobotGo    - N
+
+
+d) Does it support a scripting language?
+
+Robocorp - A TagUI -   A
+taskt - A
+Open RPA - A RobotGo - N
+
+
+e) Is the scripting language specific to the RPA or generic? (Specific is more useful than generic) 
+Robocorp - A
+TagUI -   A
+taskt - A
+Open RPA - A RobotGo - E
+
+
+
+
+
+fJ Does the scripting language have debugger support?
+
+
+Robocorp - E TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+
+g) Does it support an enterprise console for monitoring the state for different RPA agents?
+
+Robocorp - A TagUI -   E
+taskt - E
+Open RPA - A (via Open Flow)
+RobotGo    - N
+
+h) Does it come with built in templates? For example FTP connection?
+
+Robocorp - A TagUI -   A
+taskt - A
+Open RPA - A RobotGo - N
+
+i) Does the RPA have an API to trigger the bots, study their performance, run, stop and monitor 
+them? Does the RPA provide any multi-language Software Development  Kits for the same?
+
+Robocorp - A TagUI -   N
+taskt - N
+Open RPA - N RobotGo    - N
+
+j) Does the RPA have case studies as to the operational savings as compared to the development, 
+deployment and running cost?
+
+Robocorp - A TagUI -   N
+taskt - N
+Open RPA - N RobotGo    - N
+
+
+k) Does the RPA have any standards and compliance to standards? (e.g. Robot Framework
+
+
+
+Foundation)
+
+Robocorp - A TagUI -   N
+taskt - N
+Open RPA - N RobotGo    - N
+
+1) Does the RPA have modules for Web Applications?
+
+Robocorp - A TagUI -   A
+taskt - A
+Open RPA - A RobotGo    - A
+
+
+m) Does the RPA have modules for Commercial  Off The Shelf Software like Enterprise Resource 
+Planning or Human Resources or Document Management or Quality Management  or Ticketing Management?
+
+Robocorp - A TagUI -   N
+taskt - N  Open RPA - E RobotGo    - N
+
+
+n) Does the RPA have cognitive capabilities where it takes actions based on AFML models? Can these 
+AI/ML models be on the cloud as well integrated with the RPA bot?
+
+Robocorp - A TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+
+o) Does the RPA integrate with Enterprise Authentication and Authorisation  systems and Role Based 
+Access Control?
+
+Robocorp - A TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+
+
+
+
+
+p) Is there an   Administration console of RPA in a thin client?
+
+Robocorp - A TagUI â€”   A
+taskt - A
+Open RPA - A RobotGo    - E
+
+
+q) Is there an Adminustration console of RPA in a mobile native client?
+
+Robocorp - N TagUI -   N
+taskt - N
+Open RPA - N RobotGo    - N
+
+
+r)Does the RPA have commit and rollback mechanisms  when it is working across multiple systems?
+
+Robocorp - E TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+
+s) Does the RPA provide a rule engine for fast decision making?
+
+Robocorp - E TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+
+q) Does the RPA have well defined, configurable and detailed logs?
+
+Robocorp - A TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+
+
+
+
+
+s)   Does the RPA allow its distributed logs to be collated and analysed based on a correlation 
+identifier by other software?
+
+Robocorp - E TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+
+
+t) Does the RPA integrate with batch processing systems?
+
+Robocorp - A TagUI â€”   E
+taskt - E
+Open RPA - E RobotGo    - E
+
+u) Does the RPA integrate with queuing systems?
+
+Robocorp - A TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+
+v) Does the RPA integrate with integration routers and service buses?
+
+Robocorp - A TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+
+s) Does the RPA support cloning and modification mechanisms to create new bots?
+
+Robocorp - E TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+
+t) Does the RPA integrate with Version Control systems?
+
+Robocorp - A TagUI -   E
+
+
+
+taskt - E
+Open RPA - E RobotGo    - E
+
+u) Does the RPA have High Availability and Fault Tolerance mechanisms?
+
+Robocorp - E TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+
+
+v) Does the RPA work on low bandwidth connections and handle timeouts gracefully?
+
+Robocorp - E TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+
+
+x) Does the RPA allow serialisation and deserialisation of Bot state?
+
+Robocorp - A TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+
+y) Does the RPA support Peer to Peer mechanism  or only work on agent-server mode?
+
+Robocorp - E TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+
+
+z) Does the RPA have security mechanisms  to prevent attacks like man-in-the-middle?
+
+Robocorp - E TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+
+
+
+
+
+
+aa) Does the open source RPA have commercial support?
+
+Robocorp - A TagUI -   E
+taskt - E
+Open RPA - A RobotGo    - N
+
+
+ab) Does the open source RPA have community support? Robocorp - A
+TagUI -   A
+taskt - A
+Open RPA - A RobotGo    - A
+
+
+ac) Does the licensing model of RPA need any source   changes to be contributed back?   (Less 
+restrictive is favorable)
+
+Robocorp - A TagUI -   A
+taskt - A
+Open RPA - A RobotGo    - A
+ad) Is the hosted model of the RPA allowed for commercial purposes? Robocorp - A
+TagUI -   A
+taskt - A
+Open RPA - A RobotGo    - A
+
+ae) Does the RPA have any documentation? Robocorp - A
+TagUI -   A
+taskt - A
+Open RPA - A RobotGo    - E
+
+
+
+
+af) Is the RPA written in top 10 TIOBE languages?
+
+Robocorp - A TagUI -   A
+taskt - A
+Open RPA - A RobotGo    - N
+
+ag) Does the RPA have a future roadmap? Robocorp - A
+TagUI -   A
+taskt - A
+Open RPA - A RobotGo    - E
+ah) Does the RPA license allow forks? Robocorp - A
+TagUI -   A
+taskt - A
+Open RPA - A RobotGo    - A
+
+ai) Does the RPA performance scale horizontally or vertically? Robocorp - A
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - A
+aj) Does the RPA maintain state internally? Does it need or support extrernal databases? Robocorp - 
+A
+TagUI -   E
+taskt - E
+Open RPA - A RobotGo    -E
+
+ak) Does the RPA have an IDE or support existing IDEs?
+
+
+Robocorp - A TagUI -   A
+
+
+
+taskt - A
+Open RPA - A RobotGo   - A
+al) Does the RPA integrate with Function as a Service or Serverless? Robocorp - E
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo   - E
+am) Does the RPA integrate with alerts over SMTP and SMS as well as cloud mechanism? Robocorp - A
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo   - E
+
+an) Does the RPA have both a synchronous as well as asynchronous model? Can the asynchronous model 
+callback into the RPA monitor?
+
+Robocorp - E TagUI -   E
+taskt - E
+Open RPA - E RobotGo   - E
+
+ao) Regulatory question : Does the RPA provide adequatory information about its operation for 
+accounting purposes like Taxation?
+
+Robocorp - A TagUI -   A
+taskt - A
+Open RPA - A RobotGo   - A
+ap) Does the RPA interwork with other RPAs? Robocorp - A
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo   - E
+
+
+
+aq) Does the RPA have any domain specific modules like Energy, Telecom, Banking and Retail?
+
+Robocorp - A TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+
+ar) Can RPA scripts created by an organisation using the open source RPA be kept private or count 
+as intellectual property?
+
+Robocorp - A TagUI -   A
+taskt - A
+Open RPA - A RobotGo    - A
+as) Can the RPA integrate with test harnesses? Robocorp - A
+TagUI -   A
+taskt - A
+Open RPA - A RobotGo    - A
+
+at) How does the RPA differentiate  itself from test automation?
+
+
+Robocorp - A TagUI -   E
+taskt - E
+Open RPA - A RobotGo    - A
+
+au) What is the energy efficiency of RPA bots? Are they able to be hibernated?  Can they work 
+across restarts (Re-entrant)?
+
+Robocorp - E TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+av) What is the upgradation and change management process of RPA ? Does it support CI/CD? Robocorp 
+- E
+TagUI -   E
+
+
+
+taskt - E
+Open RPA - E RobotGo   - E
+
+aw) Does the RPA work on Multimedia interfaces like video or interactive video (e.g. Training 
+material)?
+
+Robocorp - A TagUI -   E
+taskt - E
+Open RPA - A RobotGo   - E
+ax) Is the RPA platform agnostic? Or it works on a specific platform? Robocorp - A
+TagUI -   A
+taskt - N
+Open RPA - N RobotGo   - N
+
+ay) Can the RPA work inside a Virtual Machine? Can the RPA work on a Virtual Machine? Robocorp - E
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo   - E
+az) Does the RPA support technologies like VNC, X, Citrix and Docker/Kubernetes? Robocorp - A
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo   - E
+ba) How does the RPA store and access any secret information provided by the organization? Robocorp 
+- A
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo   - E
+
+bb) How does the RPA detect circular and infinite loops in the process?
+
+
+
+Robocorp - E TagUI -   E
+taskt - E
+Open RPA - E RobotGo   - E
+bc) Can the RPA support server side rendering and headless modes? Robocorp - A
+TagUI -   A
+taskt - A
+Open RPA - A RobotGo   - A
+bd) Does the RPA support IoT User Interfaces? Robocorp - A
+TagUI -   E
+taskt - E
+Open RPA - A RobotGo   - E
+
+be) Is the RPA elastic based on usage? Robocorp - A
+TagUI -   E
+taskt - E
+Open RPA - A RobotGo   - A
+bf) Does the RPA allow for hot patching or cold patching of the Bots or monitoring console? 
+Robocorp - A
+TagUI -   E
+taskt - E
+Open RPA - A RobotGo   - E
+
+bg) Does the RPA include a distributed scheduler?
+
+Robocorp - A TagUI -   E
+taskt - E
+Open RPA - E RobotGo   -E
+
+
+
+bh) Does the RPA provide integrated workflow capabilities?
+
+
+Robocorp - E TagUI -   E
+taskt - E
+Open RPA - A RobotGo    - E
+
+bi) Does the RPA allow business users to build their own personal Robots from grassroots?
+
+
+Robocorp - N TagUI -   N
+taskt - N
+Open RPA - N RobotGo    - N
+
+bj) Can the grassroots Robots being built scaled to Enterprise wide Robots? Robocorp - A
+TagUI -   E
+taskt - E
+Open RPA - A RobotGo    - E
+bk) Does the RPA allow Top Down, CxO Strategy driven Robots to built? Robocorp - E
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+
+bl) Do the RPA Robots being built by   grassroots trickle up to CxO
+
+
+Robocorp - E TagUI -   E
+taskt - E
+Open RPA - A RobotGo    - E
+bm) Does the RPA integrate with Change Management? Robocorp - A
+TagUI -   E
+
+
+
+taskt - E
+Open RPA - E RobotGo    - E
+
+bn) Does the RPA integrate with Ticketing Systems? Robocorp - E
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+
+bo) Does the RPA allow large scale modular Robots to be build? Robocorp - E
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+
+bp) Has VAPT been done on   the RPA? Robocorp - E
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+
+bq) Does the RPA measure metrics related to "level of human involvement", deviations, errors and 
+quality control to evaluate it at runtime?
+Robocorp - A TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+
+
+br) Does the RPA have an orchestrator that allows it to keep track of the health of the bots?
+
+
+Robocorp - E TagUI -   E
+taskt - E
+
+
+
+Open RPA - E RobotGo    - E
+bs) In addition to the IDE, does the RPA have any test tooling? Robocorp - N
+TagUI â€”   N
+taskt - N
+Open RPA - N RobotGo    - N
+bt) Does the RPA follow the Trigger, Decision, Action Model? Robocorp - A
+TagUI -   A
+taskt - A
+Open RPA - A RobotGo    - A
+bu) Does the RPA support Process Modelling? Robocorp - E
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+by) Does the RPA work well with error prone processes? Robocorp - E
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+bw) Does the RPA work well with processes that have a long wait time? Robocorp - E
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+
+bx) Does the RPA have mechanisms for knowledge transfer from existing employees? Robocorp - E
+
+
+
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo   - E
+by) Is the ROI of the RPA high? Robocorp - E
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo   - E
+bz) Is the RPA easy to implement? Robocorp - A
+TagUI -   A
+taskt - A
+Open RPA - A RobotGo   - A
+ca) Does the RPA bundle compliance technology? Robocorp - E
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo   - E
+cb) Does the RPA improve CSAT (Customer Satisfaction) Robocorp - E
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo   - E
+cc) What is the TCO (Total Cost of Ownership) of the RPA? Robocorp - A
+TagUI -   A
+taskt - A
+Open RPA - A RobotGo   - A
+
+cd) Does the RPA use technologies that will increase the Technical Debt?
+
+
+
+
+Robocorp - E TagUI -   E
+taskt - E
+Open RPA - A RobotGo   - E
+ce) What Governance mechanisms does the RPA support? Robocorp - E
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo   - E
+cf) Does the RPA have too many technical limitations? Robocorp - E
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo   - E
+cg) Does the RPA work with Handicap of the Headstart or Leapfrogging Technologies? Robocorp - A
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo   - E
+ch) Does the RPA have hyperautomation on its Roadmap? Robocorp - E
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo   - E
+ci) Is the RPA non invasive? Robocorp - A
+TagUI -   A
+taskt - A
+Open RPA - A RobotGo   - A
+
+
+
+
+cj) Is the RPA cross system?
+
+Robocorp - A TagUI -   E
+taskt - E
+Open RPA - A RobotGo   - A
+
+ck) Can the RPA replace new applications by utilizing the capabilities of multiple legacy 
+applications?
+
+Robocorp - E TagUI -   E
+taskt - E
+Open RPA - E RobotGo   - E
+cl) Does the RPA have low tech boundary so that it can be used by non technical people? Robocorp - 
+N
+TagUI -   N
+taskt - N
+Open RPA - N RobotGo   - N
+
+cm) Does the RPA work with Triggers? Robocorp - A
+TagUI -   A
+taskt - A
+Open RPA - A RobotGo   - A
+cn) Does the RPA work with Flows? Robocorp - E
+TagUI -   E
+taskt - E
+Open RPA - A RobotGo   - E
+
+co) Do the RPA bots have   a well defined lifecycle? Robocorp - E
+
+
+
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo   - E
+cp) Does the RPA support an iterative process modeling or agile approach to development? Robocorp - 
+A
+TagUI -   E
+taskt - E
+Open RPA - A RobotGo   - E
+
+cq) Does the RPA allow for Subjective Decision making? Robocorp - E
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo   - E
+cr) Does the RPA allow for Objective Decision making? Robocorp - A
+TagUI -   A
+taskt - A
+Open RPA - A RobotGo   - A
+cs) Is the RPA containerizable? Robocorp - A
+TagUI -   A
+taskt - A
+Open RPA - A RobotGo   - A
+ct) Can RPA interwork with CI/CD systems? Robocorp - A
+TagUI -   A
+taskt - A
+Open RPA - A RobotGo   - A
+
+
+
+cu) Can the RPA work in a Sandbox?
+
+Robocorp - A TagUI -   A
+taskt - A
+Open RPA - A RobotGo    - A
+cv) Does the RPA work over VPN? Robocorp - A
+TagUI -   A
+taskt - A
+Open RPA - A RobotGo    - A
+cw) Does the RPA have a secret management  vault? Robocorp - A
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+cx) Is the RPA load tested? Robocorp - E
+TagUI -   E
+taskt - E
+Open RPA - E RobotGo    - E
+
+
+
+
+
+
+
+Open Source RPA Tools Search Methodology
+
+
+Search Mode : Private Tab with DuckDuckGo    Search on Brave Browser with Wifi connected to Fiber.
+
+Search Criteria : Only completely opensource tools. Try and Buy, Freemium or Limited user is not 
+included. Testing automation tools are not included.
+
+
+
+
+
+
+
+
+Points Earned
+
+â€¢ Robocorp - 249
+â€¢ TagUI - 154
+â€¢ taskt - 152
+â€¢ Open RPA - 199
+â€¢ RobotGo- 137
+
+
+Ranking
+
+
+Based on the criteria the ranks are
+1) Robocorp
+2) Open RPA
+3) Jointly held between TagUI and taskt
+4) RobotGo
